@@ -36,7 +36,6 @@ public class CatalogTest {
         mainPage = new MainPage(driver);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        получение ссылки на страницу v-lot из config.properties
         driver.get(mainPageUrl);
     }
 

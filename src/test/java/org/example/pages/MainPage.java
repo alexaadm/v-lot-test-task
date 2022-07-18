@@ -20,9 +20,9 @@ public class MainPage {
     /**
      * локатор кнопки "Каталог"
      */
+
     @FindBy(xpath = "//a[contains(text(),'Каталог')]/parent::li[contains(@class,'header')]")
     private WebElement catalogButton;
-
 
     /**
      * метод для нажатия на кнопку "Каталог"
